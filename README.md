@@ -19,7 +19,7 @@ This is a blog keeping track of my daily ML study for ML researches.
 - **Cons of having a model:** Getting the ground truth model is fundamentally hard, and simulating it is hard. Sometimes the bias of the model are being exploited by the agent, so it does well in the simulated env but poorly in real world
 - Also studied types of different model/model-free algorithms/works
 
-## Day 9/23
+## Day 9/22 - 9/23
 
 **Notes:**
 

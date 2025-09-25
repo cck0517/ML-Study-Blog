@@ -32,3 +32,8 @@ This is a blog keeping track of my daily ML study for ML researches.
 **Implementations:** Vanilla policy update algorithms first, then maybe ppo, and maybe GRPO, and others (focus on understandings)
 
 **Read the key papers, identify researches to do, and boundaries to push:** https://spinningup.openai.com/en/latest/spinningup/spinningup.html
+
+## Day 9/24
+**Notes:**
+- Did diagonal Gaussian distribution sampling implementation exercise
+- Started working on vanilla policy gradient update implementation — see [Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)

@@ -37,3 +37,10 @@ This is a blog keeping track of my daily ML study for ML researches.
 **Notes:**
 - Did diagonal Gaussian distribution sampling implementation exercise
 - Started working on vanilla policy gradient update implementation — see [Vanilla Policy Gradient](https://spinningup.openai.com/en/latest/algorithms/vpg.html)
+
+
+## Day 9/25
+**Notes:**
+- Completed studying implementation of Vanilla Policy Gradient (VPG) algorithm
+- Read PPO Algo and implementation details: https://spinningup.openai.com/en/latest/algorithms/ppo.html
+

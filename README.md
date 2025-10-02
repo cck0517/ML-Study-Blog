@@ -44,3 +44,31 @@ This is a blog keeping track of my daily ML study for ML researches.
 - Completed studying implementation of Vanilla Policy Gradient (VPG) algorithm
 - Read PPO Algo and implementation details: https://spinningup.openai.com/en/latest/algorithms/ppo.html
 
+## Day 10/2
+
+**Study sources:** 
+- **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs**
+- **MADial-Bench: Towards Real-world Evaluation of Memory-Augmented Dialogue Generation**
+- **DeepSearch:** https://arxiv.org/pdf/2509.25454
+
+**Notes:**
+
+**Memory Research:**
+- Finished reading **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs**
+- Completed reading **MADial-Bench: Towards Real-world Evaluation of Memory-Augmented Dialogue Generation**
+  - Focuses on cognitive perspective of memory, whether the agent can accurately recall relevant memory for emotional/intimacy conversations
+  - The benchmark is an LLM-generated conversation between a boy and a girl, with set of memories (relevant and irrelevant)
+  - Tests if in given situations, models can correctly retrieve the correct memories
+
+**DeepSearch Paper:**
+- Current bottleneck in RLVR training process: not enough rollouts (with good reasoning or methods) are explored during training time
+- This work employs MCTS in RLVR training to explore more diversity to overcome bottleneck
+- Main novelty: DeepSearch with MCTS
+  - When collecting sample rollout trajectories, maintains a MCTS search tree
+  - Maintains all frontier nodes and only expands nodes with highest F(s) score
+  - F(s) score incorporates: certainty, Q value of the node, and depth of the node
+  - Expands highest F(s) score node each time, serving as guided, efficient training time exploration strategy
+- Revisited Monte Carlo Tree Search
+
+
+
